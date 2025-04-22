@@ -1,6 +1,15 @@
 package curriculum_A;
 
+/**
+ * 
+ */
 public class Qes1_13_2 {
+	private static final char a = 0;
+	private static string ハロー;
+
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		//バイト型変数として宣言
 		byte b;
@@ -21,22 +30,46 @@ public class Qes1_13_2 {
 		//ブーリアン型変数として宣言
 		boolean boo;
 		//バイト型変数の初期化
-		byte b = 0;
+		b = 0;
 		//短整数型変数の初期化
-		short s = 0;
+		s = 0;
 		//整数型変数の初期化		
-		int i = 0;
+		i = 0;
 		//長整数型変数の初期化
-		long l = 0;
+		l = 0;
 		//単精度浮動小数点数型変数の初期化
-		float f = 0.0f;
+		f = 0.0f;
 		//倍精度浮動小数点数型変数の初期化
-		double d = 0.0d;
+		d = 0.0d;
 		//文字型変数の初期化
-		char c = '\u0000';
+		c = '\u0000';
 		//文字列型変数の初期化
-		String str = null;
+		str = null;
 		//ブーリアン型変数の初期化
-		boolean boo = false;
+		boo = false;
+		
+		//初期化をした変数に代入する
+		
+		b = 10;
+		
+		s = 100;
+		
+		i = 1000;
+		
+		l = 10000;
+		
+		f = (float) 9.5;
+		
+		d = 10.5;
+		
+		c = a;
+		
+		str = "ハロー";
+		
+		boo = true;
+		
+		
+		System.out.print(str);
+				
 	}
 }
