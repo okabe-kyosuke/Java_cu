@@ -116,7 +116,14 @@ public class Qes1_13 {
 				
 				System.out.println("好きな食べ物は"+favoriteFood+"です");
 				
+				//BMIを出力させる
+				//A-7
 				
+				double height1 = 1.705;
+				
+				double result6 = weight/(height1*height1);
+				
+				System.out.println("BMIは"+result6+"です");
 				
 				
 				
