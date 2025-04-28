@@ -83,6 +83,21 @@ public class Qes1_13 {
 				
 				System.out.println(result5); 
 				
+				//ハローJAVA43と表示させる
+				//A-5
+				
+				int num = 20;
+				
+				int num1 =23;
+				
+				System.out.println("ハローJAVA"+(num+num1));
+				
+				
+				
+				
+				
+				
+				
 	}
 
 }
