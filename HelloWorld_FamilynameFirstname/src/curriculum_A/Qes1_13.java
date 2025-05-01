@@ -195,20 +195,26 @@ public class Qes1_13 {
 				
 				weight = 64.2;
 				
-				String str1 = String.valueOf(age) + String.valueOf(height) + String.valueOf(weight);
+				String str1 = String.valueOf(age);
+				
+				String str2 = String.valueOf(height);
+				
+				String str3 = String.valueOf(weight);
+				
 				System.out.println(str1);
-				
-				String str2 = "年齢は" + age + "です";
-				
-				String str3 = "身長は" + height + "cmです";
-				
-				String str4 = "体重は" + weight + "kgです";
 				
 				System.out.println(str2);
 				
 				System.out.println(str3);
 				
+				String str4 = String.valueOf(age) + String.valueOf(height) + String.valueOf(weight);
+				
 				System.out.println(str4);
+				
+				
+				
+				//A-11で変換した【年齢・身長】を整数型に変換して出力
+				//A-12
 				
 				
 				
