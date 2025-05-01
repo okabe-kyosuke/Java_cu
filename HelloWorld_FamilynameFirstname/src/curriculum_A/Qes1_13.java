@@ -119,13 +119,40 @@ public class Qes1_13 {
 				//BMIを出力させる
 				//A-7
 				
-				double height1 = 1.705;
+				height = 1.705;
 				
-				double result6 = weight/(height1*height1);
+				double result6 = weight/(height*height);
 				
 				System.out.println("BMIは"+result6+"です");
 				
+				//A-6の変数に再代入してコンソールに出力させる
+				//A-8
 				
+				name = "鈴木一郎";
+				
+				age = 24;
+				
+				height = 168.5;
+				
+				weight = 64.2;
+				
+				favoriteFood  = "オムライス";
+				
+				System.out.println("初めまして"+name+"です");
+				
+                System.out.println("年齢は"+age+"歳です");
+				
+				System.out.println("身長は"+height+"cmです");
+				
+				System.out.println("体重は"+weight+"kgです");
+				
+				System.out.println("好きな食べ物は"+favoriteFood+"です");
+				
+				height = 1.685;
+				
+				result6 = weight/(height*height);
+				
+				System.out.println("BMIは"+result6+"です");
 				
 	}
 
