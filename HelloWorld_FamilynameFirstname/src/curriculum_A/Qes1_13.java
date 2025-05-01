@@ -181,6 +181,10 @@ public class Qes1_13 {
 				
 				System.out.printf("BMIは%.2fです%n",result6);
 				
+				//A-8で使用された年齢が25歳以上ならtrueが出力される
+				//A-10
+				
+				System.out.println(age >= 25);
 				
 				
 				
