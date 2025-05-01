@@ -198,6 +198,17 @@ public class Qes1_13 {
 				String str1 = String.valueOf(age) + String.valueOf(height) + String.valueOf(weight);
 				System.out.println(str1);
 				
+				String str2 = "年齢は" + age + "です";
+				
+				String str3 = "身長は" + height + "cmです";
+				
+				String str4 = "体重は" + weight + "kgです";
+				
+				System.out.println(str2);
+				
+				System.out.println(str3);
+				
+				System.out.println(str4);
 				
 				
 				
