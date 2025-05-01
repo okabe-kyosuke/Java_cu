@@ -186,6 +186,19 @@ public class Qes1_13 {
 				
 				System.out.println(age >= 25);
 				
+				//A-8で使用した【年齢・身長・体重】を文字列型に型変換しつなげて出力する
+				//A-11
+				
+                age = 24;
+				
+				height = 168.5;
+				
+				weight = 64.2;
+				
+				String str1 = String.valueOf(age) + String.valueOf(height) + String.valueOf(weight);
+				System.out.println(str1);
+				
+				
 				
 				
 				
