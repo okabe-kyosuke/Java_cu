@@ -123,7 +123,7 @@ public class Qes1_13 {
 				
 				double result6 = weight/(height*height);
 				
-				System.out.println("BMIは"+result6+"です");
+				System.out.printf("BMIは%.2fです%n",result6);
 				
 				//A-6の変数に再代入してコンソールに出力させる
 				//A-8
@@ -151,8 +151,39 @@ public class Qes1_13 {
 				height = 1.685;
 				
 				result6 = weight/(height*height);
+			
+				System.out.printf("BMIは%.2fです%n",result6);
 				
-				System.out.println("BMIは"+result6+"です");
+				//A-8を利用し、和算で自己代入しコンソールに出力させる
+				//A-9
+				
+				height = 168.5;
+				
+				int result7 = age+age;
+				
+				double result8 = height+height;
+				
+				double result9 = weight+weight;
+				
+                System.out.println("初めまして"+name+"です");
+				
+                System.out.println("年齢は"+result7+"歳です");
+				
+				System.out.println("身長は"+result8+"cmです");
+				
+				System.out.println("体重は"+result9+"kgです");
+				
+				System.out.println("好きな食べ物は"+favoriteFood+"です");
+				
+				height = 3.37;
+				
+				result6 = result9/(height*height);
+				
+				System.out.printf("BMIは%.2fです%n",result6);
+				
+				
+				
+				
 				
 	}
 
