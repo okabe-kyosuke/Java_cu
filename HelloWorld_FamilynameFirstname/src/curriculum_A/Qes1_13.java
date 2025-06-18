@@ -216,7 +216,19 @@ public class Qes1_13 {
 				//A-11で変換した【年齢・身長】を整数型に変換して出力
 				//A-12
 				
+				int ageint = Integer.parseInt(str1);
 				
+				double heightDouble = Double.parseDouble(str2);
+				
+                System.out.println(ageint);
+				
+				System.out.println(heightDouble);
+				
+				
+				//A-12で変換した値が【25歳もしくは身長160以上】であればtrueを出力　ifはつかわない
+				//A-13
+				
+				System.out.println((ageint == 25) || (heightDouble >= 160));
 				
 				
 	}
